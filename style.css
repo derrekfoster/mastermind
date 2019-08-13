@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+	margin: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+div {
+	text-align: left;
+	color: white;
+}
+
+img {
+	//position: absolute;
+	border: none;
+}
