@@ -27,10 +27,12 @@ window.onresize = function() {
 function setup() {
 	initialValues();
 	detectSize();	
+	/*
 	console.log("cpu1 = "+cpu1);
 	console.log("cpu2 = "+cpu2);
 	console.log("cpu3 = "+cpu3);
 	console.log("cpu4 = "+cpu4);
+	*/
 	loadGameboard();
 }
 
@@ -295,8 +297,10 @@ function getRandom() {
 
 function verifyWin() {
 	
+	/*
 	console.log("cpu1 = "+cpu1+" cpu2 = "+cpu2+" cpu3 = "+cpu3+" cpu4 = "+cpu4);
 	console.log("  p1 = "+player1+"   p2 = "+player2+"   p3 = "+player3+"   p4 = "+player4);
+	*/
 	
 	var exacts = 0;
 	var nears = 0;
